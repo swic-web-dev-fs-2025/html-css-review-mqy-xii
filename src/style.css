@@ -1,3 +1,25 @@
+header a {
+  color: #140e23;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(200 141 255);
+}
+
+nav a {
+  color: #3c323d;
+}
+
+nav a:visited {
+  color: #140e23;
+}
+
+nav a:hover {
+  color: #f7f4f7;
+  text-shadow: 1px 1px 2px #140e23;
+}
+
 nav ul {
   display: flex;
   list-style-type: none;
