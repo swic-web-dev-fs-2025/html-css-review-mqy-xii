@@ -1,10 +1,22 @@
-* {
-  color: blue;
-}
-
 nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
+  align-items: center;
   width: auto;
+  padding: 1em;
+}
+
+/* Simple card layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+/* Header-sidebar-main layout */
+.page-layout {
+  display: grid;
+  grid-template: "header header" auto "sidebar main" 1fr / 200px 1fr;
+  gap: 1em;
 }
