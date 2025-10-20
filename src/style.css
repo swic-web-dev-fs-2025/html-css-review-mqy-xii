@@ -2,6 +2,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
 header a {
   color: #140e23;
   text-decoration: none;
@@ -10,6 +14,7 @@ header a {
 main {
   background-color: #e7e2e8;
   padding: 1em;
+  grid-area: 2 / 1 / 6 / 6;
 }
 
 section {
@@ -18,6 +23,13 @@ section {
 
 aside {
   background-color: #817a83;
+}
+
+nav {
+  font-size: 18px;
+  background-color: #c88dff;
+  padding: 0.5em;
+  grid-area: 1 / 2 / 2 / 6;
 }
 
 nav a {
@@ -36,24 +48,6 @@ nav a:hover {
 footer {
   background-color: #c88dff;
   padding: 1em;
-}
-
-.header {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.nav {
-  grid-area: 1 / 2 / 2 / 6;
-}
-
-.main {
-  grid-area: 2 / 1 / 6 / 6;
-}
-
-nav {
-  font-size: 18px;
-  background-color: #c88dff;
-  padding: 0.5em;
 }
 
 nav ul {
